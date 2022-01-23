@@ -6,4 +6,11 @@
             $this->set($y);
             $this->render('view');
         }
+
+        public function beweb() {
+            // SHOULD BE A mySQL QUERY ... 
+            $user['table'] = ['username'=>'RAMESH' , 'prenom' => 'MAHMOUDI'];
+            $this->set($user);
+            $this->render('beweb');
+        }
 }

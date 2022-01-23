@@ -1,0 +1,66 @@
+.bdTable-user {
+    background-color: #D0D3D4;
+}
+
+.content-user h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin: 40px;
+}
+
+.table-bdC {
+    background-color: yellow;
+}
+
+.menu-items {
+    margin-top: 50px;
+    display: inline-block;
+    list-style: none;
+}
+
+.menu-items li{
+    display: inline-block;
+    margin: 25px;
+}
+
+.menu-items li h5{
+    font-size: 30px;
+}
+
+.menu-items li h5 a{
+    text-decoration: none;
+}
+
+.menu-items li h5 a:hover{
+    border-bottom: 5px solid yellow;
+    padding-bottom: 10px;
+
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+
+.home-page {
+    margin-top: 25px;
+}
+
+.home-page a{
+    text-decoration: none;
+    color: black;
+}
+
+.hr {
+    color: black;
+}
+
+.ini-home h1{
+    margin-top: 100px;
+}
+
+.ini-home a{
+    text-decoration: none;
+    color: white;
+}
+
+.dark-home {
+    background-color: gray;
+}

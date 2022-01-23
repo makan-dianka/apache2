@@ -1,31 +1,28 @@
 <?php
 // on affiche tout ce qui est passé 
-echo "VAR DUMP : ";
-var_dump($_GET);
 
 // on récupère les variables globales pour ce script 
-echo "SCRIPT NAME : ".$_SERVER['SCRIPT_NAME'] ;
-echo "<br>";
-echo "SCRIPT FILENAME : ".$_SERVER['SCRIPT_FILENAME'] ; 
-echo "<br>";
+// echo "SCRIPT NAME : ".$_SERVER['SCRIPT_NAME'] ;
+// echo "<br>";
+// echo "SCRIPT FILENAME : ".$_SERVER['SCRIPT_FILENAME'] ; 
+// echo "<br>";
 
 // on definit des constantes pour appeller les scripts qqsoit le directory
 define('WEBROOT' , str_replace('index.php' , '' , $_SERVER['SCRIPT_NAME']));
 define('ROOT' , str_replace('index.php' , '' , $_SERVER['SCRIPT_FILENAME']));
 
-echo "ROOT CONST : ".ROOT ;
-echo "<br>";
-echo "WEB-ROOT CONST : ".WEBROOT ; 
-echo "<br>";
-echo "FINAL PATH : ".$mypath = ROOT.'core/controller.php' ;
-echo "<br>";
+// echo "ROOT CONST : ".ROOT ;
+// echo "<br>";
+// echo "WEB-ROOT CONST : ".WEBROOT ; 
+// echo "<br>";
+// echo "FINAL PATH : ".$mypath = ROOT.'core/controller.php' ;
+// echo "<br>";
 require(ROOT.'core/controller.php');
 
 
 
 // on recupere tous les paramètres de l'url sépares 
 $param = explode('/',$_GET['p']);
-var_dump($param);
 
 // URL index.php/tuto/index 
 // on extrait chaque parametre 
