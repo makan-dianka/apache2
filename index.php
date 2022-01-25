@@ -1,4 +1,6 @@
 <?php
+    // var_dump($_GET['p']);
+
 // on affiche tout ce qui est passé 
 
 // on récupère les variables globales pour ce script 
